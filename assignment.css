@@ -5,4 +5,138 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
-  
+/* header section design */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+}
+.button{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33);
+    background-color: transparent;
+    padding: 17px 24px 17px 24px;
+    text-align: center;
+    border-radius: 8px;
+}
+header nav h3{
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.bgimg{
+    width: 1500px;
+    height: 652px;
+    background-image: url(assets/Hero-bg.png);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1{
+    width: 990px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.big-para{
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    text-align: center;
+}
+.small-para{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+    color: rgb(13, 19, 33);
+}
+.button-1{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 8px;
+    padding: 21px 24px 21px 24px;
+    background-color: rgb(13, 19, 33);
+}
+/* main design begins */
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.common-heading{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+    text-align: center;
+    line-height: 37px;
+}
+.common-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    text-align: center;
+}
+/* section1 design */
+.section-1{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 90px;
+    margin-top: 110px;
+}
+.sub-div1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+}
+.sub-div2{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    padding: 48px;
+}
+.smol-div{
+    width: 447px;
+    height: 219px;
+    align-items: left;
+}
+.common-class{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+    text-align: left;
+}
+.common-para2{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    text-align: left;
+}
+.button2{
+    
+    background-color: transparent;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid rgb(13, 19, 33);
+
+}
+#margin{
+    margin-right: 200px;
+}
