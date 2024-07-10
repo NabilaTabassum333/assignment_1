@@ -5,6 +5,13 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
+  html{
+    scroll-behavior: smooth;
+  }
+  *{
+    margin-left: 0;
+    margin-right: 0;
+  }
 /* header section design */
 header nav{
     display: flex;
@@ -256,4 +263,30 @@ main{
     line-height: 23px;
     text-align: center;
     padding: 17px 20px 17px 20px;
+}
+
+/* footer design */
+footer{
+    margin-top: 100px;
+}
+footer nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.05);
+    padding: 25px 150px 25px 150px;
+
+}
+footer nav p{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+footer nav div{
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
