@@ -85,6 +85,8 @@ main{
     color: rgb(13, 19, 33);
     opacity: 0.7;
     text-align: center;
+    width: 900px;
+    margin: 0 auto;
 }
 /* section1 design */
 .section-1{
@@ -139,4 +141,119 @@ main{
 }
 #margin{
     margin-right: 200px;
+}
+.vdo{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    height: 640px;
+    width: 1200px;
+    background-color: rgba(13, 19, 33, 0.05);
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.section-2{
+    margin-top: 100px;
+}
+.skill-name{
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+.skill-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.anchor{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+}
+.skill1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.skill2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+.skill3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+.section3{
+    margin-top: 100px;
+}
+.about-bg{
+    width: 1200px;
+    height: 340px;
+    background-image: url(assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0,0.7);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.small-div{
+    display: flex;
+    align-items: center;
+    gap: 20px ;
+}
+.about-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about-para{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.input-text{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 570px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+.input-btn{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    padding: 17px 20px 17px 20px;
 }
